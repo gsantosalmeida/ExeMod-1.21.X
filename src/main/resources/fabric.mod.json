@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "exe-mod",
+	"version": "${version}",
+	"name": "Exe Mod",
+	"description": "Este é um mod feito por Gabriel! Apenas para se divertir e aprender coisas novas!!",
+	"authors": [
+		"Gabriel"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/exe-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gabi.exemod.ExeMod"
+		],
+		"fabric-datagen": [
+			"net.gabi.exemod.ExeModDataGenerator"
+		],
+		"client": [
+			"net.gabi.exemod.ExeModClient"
+		]
+	},
+	"mixins": [
+		"exe-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
