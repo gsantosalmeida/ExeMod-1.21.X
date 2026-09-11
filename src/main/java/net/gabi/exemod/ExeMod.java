@@ -2,6 +2,7 @@ package net.gabi.exemod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gabi.exemod.block.ModBlocks;
 import net.gabi.exemod.item.ModItems;
 import net.minecraft.util.Identifier;
 
@@ -15,6 +16,7 @@ public class ExeMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {

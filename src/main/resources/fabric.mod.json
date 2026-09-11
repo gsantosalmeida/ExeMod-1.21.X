@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "exe-mod",
+	"id": "exemod",
 	"version": "${version}",
 	"name": "Exe Mod",
 	"description": "Este é um mod feito por Gabriel! Apenas para se divertir e aprender coisas novas!!",
@@ -9,16 +9,16 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/gsantosalmeida/ExeMod-1.21.X.git"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/exe-mod/icon.png",
+	"icon": "assets/exemod/icon.png",
 	"environment": "*",
-	"entrypoints": {
+	"entrypoint": {
 		"main": [
 			"net.gabi.exemod.ExeMod"
 		],
-		"fabric-datagen": [
+		"fabric-data": [
 			"net.gabi.exemod.ExeModDataGenerator"
 		],
 		"client": [
