@@ -1,11 +1,9 @@
 package net.gabi.exemod;
 
 import net.fabricmc.api.ModInitializer;
-
 import net.gabi.exemod.block.ModBlocks;
 import net.gabi.exemod.item.ModItems;
 import net.minecraft.util.Identifier;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,9 +14,8 @@ public class ExeMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
+		ModBlocks.registerModBlock();
 	}
-
 	public static Identifier id(String path) {
 		return Identifier.of(MOD_ID, path);
 	}
