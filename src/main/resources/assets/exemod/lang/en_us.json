@@ -10,5 +10,7 @@
   "block.exemod.bloco_turmalina_schorl": "Bloco de Turmalina Schorl",
   "block.exemod.bloco_turmalina_indicolita": "Bloco de Turmalina Indicolita",
   "block.exemod.bloco_turmalina_rubelita": "Bloco de Turmalina Rubelita",
-  "block.exemod.bloco_turmalina_paraiba": "Bloco de Turmalina Paraíba"
+  "block.exemod.bloco_turmalina_paraiba": "Bloco de Turmalina Paraíba",
+  "itemgroup.exemod.item_turmalina": "Turmalinas",
+  "itemgroup.exemod.bloco_turmalina": "Blocos de Turmalinas"
 }
