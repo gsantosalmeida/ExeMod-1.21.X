@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catagory": "building",
+  "ingredients": [
+    {
+      "item": "exemod:bloco_turmalina_schorl"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "exemod:turmalina_schorl"
+  }
+}
