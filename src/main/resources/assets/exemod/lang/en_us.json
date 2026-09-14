@@ -12,5 +12,7 @@
   "block.exemod.bloco_turmalina_rubelita": "Block of Rubellite Tourmaline",
   "block.exemod.bloco_turmalina_paraiba": "Block of Paraiba Tourmaline",
   "itemgroup.exemod.item_turmalina": "Tourmalines",
-  "itemgroup.exemod.bloco_turmalina": "Tourmaline Blocks"
+  "itemgroup.exemod.bloco_turmalina": "Tourmaline Blocks",
+  "block.exemod.bloco_turmalina_schorl_ore": "Schorl Tourmaline Ore",
+  "block.exemod.bloco_turmalina_schorl_deepslate": "Schorl Tourmaline Deepslate Ore"
 }

@@ -35,6 +35,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOCO_TURMALINA_INDICOLITA);
                         entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL);
                         entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_ORE);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_DEEPSLATE);
                     }).build());
 
 

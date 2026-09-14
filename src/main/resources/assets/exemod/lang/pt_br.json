@@ -12,5 +12,7 @@
   "block.exemod.bloco_turmalina_rubelita": "Bloco de Turmalina Rubelita",
   "block.exemod.bloco_turmalina_paraiba": "Bloco de Turmalina Paraíba",
   "itemgroup.exemod.item_turmalina": "Turmalinas",
-  "itemgroup.exemod.bloco_turmalina": "Blocos de Turmalinas"
+  "itemgroup.exemod.bloco_turmalina": "Blocos de Turmalinas",
+  "block.exemod.bloco_turmalina_schorl_ore": "Bloco de Minério Turmalina Schorl",
+  "block.exemod.bloco_turmalina_schorl_deepslate": "Bloco de Ardósia de Minério de Turmalina Schorl"
 }

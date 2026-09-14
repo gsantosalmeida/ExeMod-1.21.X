@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gabi.exemod.ExeMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -11,6 +12,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
+
+import static com.ibm.icu.impl.duration.impl.DataRecord.EGender.F;
 
 public class ModBlocks {
     public static final Block BLOCO_TURMALINA_SCHORL = registerBlock("bloco_turmalina_schorl",
@@ -24,23 +28,29 @@ public class ModBlocks {
             new Block(AbstractBlock
                     .Settings
                     .create()
-                    .strength(4F)
+                    .strength(3F)
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block BLOCO_TURMALINA_RUBELITA = registerBlock("bloco_turmalina_rubelita",
             new Block(AbstractBlock
                     .Settings
                     .create()
-                    .strength(5F)
+                    .strength(3.5F)
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block BLOCO_TURMALINA_PARAIBA = registerBlock("bloco_turmalina_paraiba",
             new Block(AbstractBlock
                     .Settings
                     .create()
-                    .strength(6F)
+                    .strength(3.5F)
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BLOCO_TURMALINA_SCHORL_ORE = registerBlock("bloco_turmalina_schorl_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+            AbstractBlock.Settings.create().strength(3F).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block BLOCO_TURMALINA_SCHORL_DEEPSLATE = registerBlock("bloco_turmalina_schorl_deepslate",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
+            AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
     private static Block registerBlock(String name, Block block){
@@ -59,6 +69,8 @@ public class ModBlocks {
             entries.add(ModBlocks.BLOCO_TURMALINA_INDICOLITA);
             entries.add(ModBlocks.BLOCO_TURMALINA_RUBELITA);
             entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA);
+            entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_ORE);
+            entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_DEEPSLATE);
         });
     }
 }

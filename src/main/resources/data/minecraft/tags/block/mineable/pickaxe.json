@@ -1,0 +1,11 @@
+{
+  "replace": "false",
+  "values": [
+    "exemod:bloco_turmalina_schorl",
+    "exemod:bloco_turmalina_indicolita",
+    "exemod:bloco_turmalina_rubelita",
+    "exemod:bloco_turmalina_paraiba",
+    "exemod:bloco_turmalina_schorl_ore",
+    "exemod:bloco_turmalina_schorl_deepslate"
+  ]
+}
