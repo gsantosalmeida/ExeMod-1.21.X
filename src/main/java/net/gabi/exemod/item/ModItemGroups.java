@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup TURMALINA_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(ExeMod.MOD_ID, "itens_turmalina"),
+            Identifier.of(ExeMod.MOD_ID, "itens_turmalinas"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.TURMALINA_RUBELITA))
                     .displayName(Text.translatable("itemgroup.exemod.item_turmalina"))
                     .entries((displayContext, entries) ->{
