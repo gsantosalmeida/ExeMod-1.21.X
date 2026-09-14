@@ -14,5 +14,11 @@
   "itemgroup.exemod.item_turmalina": "Turmalinas",
   "itemgroup.exemod.bloco_turmalina": "Blocos de Turmalinas",
   "block.exemod.bloco_turmalina_schorl_ore": "Minério Turmalina Schorl",
-  "block.exemod.bloco_turmalina_schorl_deepslate": "Minério de Turmalina Schorl Ardósiabsal"
+  "block.exemod.bloco_turmalina_schorl_deepslate": "Minério de Turmalina Schorl Ardósiabsal",
+  "block.exemod.bloco_turmalina_indicolita_ore": "Minério Turmalina Indicolita",
+  "block.exemod.bloco_turmalina_indicolita_deepslate": "Minério de Turmalina Indicolita Ardósiabsal",
+  "block.exemod.bloco_turmalina_rubelita_ore": "Minério Turmalina Rubelita",
+  "block.exemod.bloco_turmalina_rubelita_deepslate": "Minério de Turmalina Rubelita Ardósiabsal",
+  "block.exemod.bloco_turmalina_paraiba_ore": "Minério Turmalina Paraíba",
+  "block.exemod.bloco_turmalina_paraiba_deepslate": "Minério de Turmalina Paraíba Ardósiabsal"
 }

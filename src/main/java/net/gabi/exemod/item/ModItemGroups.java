@@ -37,6 +37,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA);
                         entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_ORE);
                         entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_DEEPSLATE);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_INDICOLITA_ORE);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_INDICOLITA_DEEPSLATE);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_RUBELITA_ORE);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_RUBELITA_DEEPSLATE);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA_ORE);
+                        entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA_DEEPSLATE);
                     }).build());
 
 

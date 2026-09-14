@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "exemod:block/bloco_turmalina_rubelita_ore"
+  }
+}

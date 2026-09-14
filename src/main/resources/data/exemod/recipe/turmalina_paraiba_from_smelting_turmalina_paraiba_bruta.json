@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "itens_turmalinas",
+  "ingredient": {
+      "item": "exemod:turmalina_paraiba_bruta"
+  },
+  "result": {
+    "id": "exemod:turmalina_paraiba"
+  }
+}

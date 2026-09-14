@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "itens_turmalinas",
+  "ingredient": {
+      "item": "exemod:turmalina_indicolita_bruta"
+  },
+  "result": {
+    "id": "exemod:turmalina_indicolita"
+  }
+}

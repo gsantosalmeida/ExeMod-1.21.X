@@ -14,5 +14,11 @@
   "itemgroup.exemod.item_turmalina": "Tourmalines",
   "itemgroup.exemod.bloco_turmalina": "Tourmaline Blocks",
   "block.exemod.bloco_turmalina_schorl_ore": "Schorl Tourmaline Ore",
-  "block.exemod.bloco_turmalina_schorl_deepslate": "Schorl Tourmaline Deepslate Ore"
+  "block.exemod.bloco_turmalina_schorl_deepslate": "Schorl Tourmaline Deepslate Ore",
+  "block.exemod.bloco_turmalina_indicolita_ore": "Indicolite Tourmaline Ore",
+  "block.exemod.bloco_turmalina_indicolita_deepslate": "Indiolite Tourmaline Deepslate Ore",
+  "block.exemod.bloco_turmalina_rubelita_ore": "Rubellite Tourmaline Ore",
+  "block.exemod.bloco_turmalina_rubelita_deepslate": "Rubellite Tourmaline Deepslate Ore",
+  "block.exemod.bloco_turmalina_paraiba_ore": "Paraiba Tourmaline Ore",
+  "block.exemod.bloco_turmalina_paraiba_deepslate": "Paraiba Tourmaline Deepslate Ore"
 }

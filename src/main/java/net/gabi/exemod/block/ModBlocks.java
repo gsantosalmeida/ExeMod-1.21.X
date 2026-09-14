@@ -47,10 +47,28 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block BLOCO_TURMALINA_SCHORL_ORE = registerBlock("bloco_turmalina_schorl_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
-            AbstractBlock.Settings.create().strength(3F).requiresTool().sounds(BlockSoundGroup.STONE)));
+            AbstractBlock.Settings.create().strength(3F).requiresTool()));
     public static final Block BLOCO_TURMALINA_SCHORL_DEEPSLATE = registerBlock("bloco_turmalina_schorl_deepslate",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
-            AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.STONE)));
+            AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BLOCO_TURMALINA_INDICOLITA_ORE = registerBlock("bloco_turmalina_indicolita_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().strength(3F).requiresTool()));
+    public static final Block BLOCO_TURMALINA_INDICOLITA_DEEPSLATE = registerBlock("bloco_turmalina_indicolita_deepslate",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
+                    AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BLOCO_TURMALINA_RUBELITA_ORE = registerBlock("bloco_turmalina_rubelita_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().strength(3F).requiresTool()));
+    public static final Block BLOCO_TURMALINA_RUBELITA_DEEPSLATE = registerBlock("bloco_turmalina_rubelita_deepslate",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
+                    AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BLOCO_TURMALINA_PARAIBA_ORE = registerBlock("bloco_turmalina_paraiba_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().strength(3F).requiresTool()));
+    public static final Block BLOCO_TURMALINA_PARAIBA_DEEPSLATE = registerBlock("bloco_turmalina_paraiba_deepslate",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
+                    AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
 
     private static Block registerBlock(String name, Block block){
@@ -71,6 +89,12 @@ public class ModBlocks {
             entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA);
             entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_ORE);
             entries.add(ModBlocks.BLOCO_TURMALINA_SCHORL_DEEPSLATE);
+            entries.add(ModBlocks.BLOCO_TURMALINA_INDICOLITA_ORE);
+            entries.add(ModBlocks.BLOCO_TURMALINA_INDICOLITA_DEEPSLATE);
+            entries.add(ModBlocks.BLOCO_TURMALINA_RUBELITA_ORE);
+            entries.add(ModBlocks.BLOCO_TURMALINA_RUBELITA_DEEPSLATE);
+            entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA_ORE);
+            entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA_DEEPSLATE);
         });
     }
 }
