@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catagory": "misc",
+  "key": {
+    "#": {
+      "item": "exemod:barra_aco"
+      }
+    },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 2,
+    "id": "exemod:cabo_aco"
+  }
+}

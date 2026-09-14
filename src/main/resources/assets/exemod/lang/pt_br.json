@@ -20,5 +20,9 @@
   "block.exemod.bloco_turmalina_rubelita_ore": "Minério Turmalina Rubelita",
   "block.exemod.bloco_turmalina_rubelita_deepslate": "Minério de Turmalina Rubelita Ardósiabsal",
   "block.exemod.bloco_turmalina_paraiba_ore": "Minério Turmalina Paraíba",
-  "block.exemod.bloco_turmalina_paraiba_deepslate": "Minério de Turmalina Paraíba Ardósiabsal"
+  "block.exemod.bloco_turmalina_paraiba_deepslate": "Minério de Turmalina Paraíba Ardósiabsal",
+  "item.exemod.metade_carvao": "Metade de Carvão",
+  "item.exemod.barra_ferro_carvao": "Barra de Ferro com Carvão",
+  "item.exemod.barra_aco": "Barra de Aço",
+  "item.exemod.cabo_aco": "Cabo de Aço"
 }

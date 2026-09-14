@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "ingredients",
+  "ingredient": {
+      "item": "exemod:barra_ferro_carvao"
+  },
+  "result": {
+    "id": "exemod:barra_aco"
+  }
+}
