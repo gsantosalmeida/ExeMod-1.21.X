@@ -43,6 +43,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOCO_TURMALINA_RUBELITA_DEEPSLATE);
                         entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA_ORE);
                         entries.add(ModBlocks.BLOCO_TURMALINA_PARAIBA_DEEPSLATE);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 

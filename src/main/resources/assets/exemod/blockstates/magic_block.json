@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "exemod:block/magic_block"
+    }
+  }
+}

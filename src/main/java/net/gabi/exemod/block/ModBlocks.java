@@ -2,6 +2,7 @@ package net.gabi.exemod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gabi.exemod.ExeMod;
+import net.gabi.exemod.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -69,6 +70,7 @@ public class ModBlocks {
     public static final Block BLOCO_TURMALINA_PARAIBA_DEEPSLATE = registerBlock("bloco_turmalina_paraiba_deepslate",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
                     AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(AbstractBlock.Settings.create().strength(4.5F).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block){
