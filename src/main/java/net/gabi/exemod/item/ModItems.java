@@ -23,6 +23,9 @@ public class ModItems{
     public static final Item BARRA_ACO = registerItem("barra_aco", new Item(new Item.Settings()));
     public static final Item CABO_ACO = registerItem("cabo_aco", new Item(new Item.Settings()));
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item COUVE_FLOR = registerItem("couve_flor", new Item(new Item.Settings().food(ModFoodComponentes.COUVE_FLOR)));
+    public static final Item ESTRELA_INCANDESCENTE = registerItem("estrela_incandescente", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(ExeMod.MOD_ID, name), item);

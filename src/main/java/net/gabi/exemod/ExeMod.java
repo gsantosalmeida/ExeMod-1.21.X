@@ -1,6 +1,7 @@
 package net.gabi.exemod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.gabi.exemod.block.ModBlocks;
 import net.gabi.exemod.item.ModItemGroups;
 import net.gabi.exemod.item.ModItems;
@@ -18,6 +19,8 @@ public class ExeMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlock();
+
+		FuelRegistry.INSTANCE.add(ModItems.ESTRELA_INCANDESCENTE, 600);
 	}
 	public static Identifier id(String path) {
 		return Identifier.of(MOD_ID, path);

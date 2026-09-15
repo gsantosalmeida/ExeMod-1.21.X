@@ -24,6 +24,8 @@ public class ModItemGroups {
                         entries.add(ModItems.TURMALINA_INDICOLITA_BRUTA);
                         entries.add(ModItems.TURMALINA_SCHORL_BRUTA);
                         entries.add(ModItems.TURMALINA_PARAIBA_BRUTA);
+                        entries.add(ModItems.COUVE_FLOR);
+                        entries.add(ModItems.ESTRELA_INCANDESCENTE);
                     }).build());
 
     public static final ItemGroup TURMALINA_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
