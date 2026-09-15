@@ -2,6 +2,7 @@ package net.gabi.exemod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gabi.exemod.ExeMod;
+import net.gabi.exemod.item.custom.ChiselItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -21,6 +22,7 @@ public class ModItems{
     public static final Item BARRA_FERRO_CARVAO = registerItem("barra_ferro_carvao", new Item(new Item.Settings()));
     public static final Item BARRA_ACO = registerItem("barra_aco", new Item(new Item.Settings()));
     public static final Item CABO_ACO = registerItem("cabo_aco", new Item(new Item.Settings()));
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(ExeMod.MOD_ID, name), item);
@@ -41,6 +43,7 @@ public class ModItems{
             entries.add(BARRA_FERRO_CARVAO);
             entries.add(BARRA_ACO);
             entries.add(CABO_ACO);
+            entries.add(CHISEL);
         });
     }
 }
