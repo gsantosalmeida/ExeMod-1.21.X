@@ -26,11 +26,20 @@
                   }
                 }
               ],
-              "name": "exemod:bloco_turmalina_rubelita_ore"
+              "name": "exemod:bloco_turmalina_paraiba_deepslate"
             },
             {
               "type": "minecraft:item",
               "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
@@ -40,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "exemod:turmalina_rubelita_bruta"
+              "name": "exemod:turmalina_paraiba_bruta"
             }
           ]
         }

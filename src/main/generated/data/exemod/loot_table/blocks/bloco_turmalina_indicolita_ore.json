@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "exemod:bloco_turmalina_paraiba_deepslate"
+              "name": "exemod:bloco_turmalina_indicolita_ore"
             },
             {
               "type": "minecraft:item",
@@ -35,7 +35,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 5.0,
+                    "max": 4.0,
                     "min": 2.0
                   },
                   "function": "minecraft:set_count"
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "exemod:turmalina_paraiba_bruta"
+              "name": "exemod:turmalina_indicolita_bruta"
             }
           ]
         }
