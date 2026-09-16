@@ -2,6 +2,7 @@ package net.gabi.exemod.block.custom;
 
 import net.gabi.exemod.block.ModBlocks;
 import net.gabi.exemod.item.ModItems;
+import net.gabi.exemod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -31,11 +32,17 @@ public class MagicBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getStack().getItem() == ModItems.TURMALINA_PARAIBA) {
+            if(isValidItem(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
             }
         }
 
         super.onSteppedOn(world, pos, state, entity);
     }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.ITENS_TRANSFORMS);
+    }
+
+
 }

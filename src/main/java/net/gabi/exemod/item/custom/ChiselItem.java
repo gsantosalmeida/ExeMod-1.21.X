@@ -4,26 +4,22 @@ import net.gabi.exemod.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 import java.util.Map;
 
 public class ChiselItem extends Item {
-    private static final Map<Block, Block> CHISEL_MAP =
+    private static final Map<Object, Block> CHISEL_MAP =
             Map.of(
                     Blocks.STONE, Blocks.STONE_BRICKS,
-                    Blocks.END_STONE, Blocks.END_STONE_BRICKS,
-                    Blocks.OAK_LOG, ModBlocks.BLOCO_TURMALINA_INDICOLITA_DEEPSLATE,
-                    Blocks.GOLD_BLOCK, ModBlocks.BLOCO_TURMALINA_PARAIBA
-
+                    Blocks.BLACK_BANNER, ModBlocks.BLOCO_TURMALINA_INDICOLITA_DEEPSLATE
             );
 
     public ChiselItem(Settings settings) {
