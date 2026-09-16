@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bloco_turmalina_schorl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exemod:bloco_turmalina_schorl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "exemod:turmalina_schorl"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bloco_turmalina_schorl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "exemod:turmalina_schorl"
+    ]
+  }
+}

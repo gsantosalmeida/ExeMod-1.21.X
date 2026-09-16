@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "turmalina_rubelita",
+  "ingredient": {
+    "item": "exemod:turmalina_rubelita_bruta"
+  },
+  "result": {
+    "id": "exemod:turmalina_rubelita"
+  }
+}

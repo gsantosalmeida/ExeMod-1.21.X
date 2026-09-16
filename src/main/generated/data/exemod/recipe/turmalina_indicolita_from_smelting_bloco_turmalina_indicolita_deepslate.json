@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "turmalina_indicolita",
+  "ingredient": {
+    "item": "exemod:bloco_turmalina_indicolita_deepslate"
+  },
+  "result": {
+    "id": "exemod:turmalina_indicolita"
+  }
+}

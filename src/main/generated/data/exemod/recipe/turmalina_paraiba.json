@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "exemod:bloco_turmalina_paraiba"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "exemod:turmalina_paraiba"
+  }
+}

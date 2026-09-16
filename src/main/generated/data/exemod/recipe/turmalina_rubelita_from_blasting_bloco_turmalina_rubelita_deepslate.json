@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "turmalina_rubelita",
+  "ingredient": {
+    "item": "exemod:bloco_turmalina_rubelita_deepslate"
+  },
+  "result": {
+    "id": "exemod:turmalina_rubelita"
+  }
+}

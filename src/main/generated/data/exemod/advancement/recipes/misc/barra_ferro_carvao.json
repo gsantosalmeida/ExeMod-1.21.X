@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_metade_carvao": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exemod:metade_carvao"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "exemod:barra_ferro_carvao"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_metade_carvao"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "exemod:barra_ferro_carvao"
+    ]
+  }
+}

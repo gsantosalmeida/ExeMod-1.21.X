@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "turmalina_indicolita",
+  "ingredient": {
+    "item": "exemod:bloco_turmalina_indicolita_ore"
+  },
+  "result": {
+    "id": "exemod:turmalina_indicolita"
+  }
+}

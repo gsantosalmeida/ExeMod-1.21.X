@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "exemod:bloco_turmalina_rubelita"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_turmalina_rubelita": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exemod:turmalina_rubelita"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_turmalina_rubelita"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "exemod:bloco_turmalina_rubelita"
+    ]
+  }
+}

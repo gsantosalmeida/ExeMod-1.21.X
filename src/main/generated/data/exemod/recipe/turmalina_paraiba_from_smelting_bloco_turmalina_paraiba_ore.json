@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "turmalina_paraiba",
+  "ingredient": {
+    "item": "exemod:bloco_turmalina_paraiba_ore"
+  },
+  "result": {
+    "id": "exemod:turmalina_paraiba"
+  }
+}

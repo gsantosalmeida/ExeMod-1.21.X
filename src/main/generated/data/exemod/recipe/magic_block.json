@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "!": {
+      "item": "exemod:turmalina_schorl"
+    },
+    "#": {
+      "item": "exemod:turmalina_indicolita"
+    },
+    "$": {
+      "item": "exemod:turmalina_rubelita"
+    },
+    "@": {
+      "item": "exemod:turmalina_paraiba"
+    }
+  },
+  "pattern": [
+    "#@",
+    "!$"
+  ],
+  "result": {
+    "count": 1,
+    "id": "exemod:magic_block"
+  }
+}
