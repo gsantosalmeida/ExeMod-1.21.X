@@ -27,7 +27,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLOCO_TURMALINA_RUBELITA_ORE)
                 .add(ModBlocks.BLOCO_TURMALINA_PARAIBA)
                 .add(ModBlocks.BLOCO_TURMALINA_PARAIBA_DEEPSLATE)
-                .add(ModBlocks.BLOCO_TURMALINA_PARAIBA_ORE);
+                .add(ModBlocks.BLOCO_TURMALINA_PARAIBA_ORE)
+                .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BLOCO_TURMALINA_INDICOLITA)
@@ -35,7 +36,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLOCO_TURMALINA_INDICOLITA_ORE)
                 .add(ModBlocks.BLOCO_TURMALINA_SCHORL)
                 .add(ModBlocks.BLOCO_TURMALINA_SCHORL_DEEPSLATE)
-                .add(ModBlocks.BLOCO_TURMALINA_SCHORL_ORE);
+                .add(ModBlocks.BLOCO_TURMALINA_SCHORL_ORE)
+                .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.BLOCO_TURMALINA_RUBELITA)
