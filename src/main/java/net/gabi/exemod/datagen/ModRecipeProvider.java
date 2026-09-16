@@ -50,7 +50,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, TURMALINA_PARAIBA_SMELTABLES, RecipeCategory.MISC, ModItems.TURMALINA_PARAIBA, 0.25F, 200, "turmalina_paraiba");
         offerSmelting(exporter, BARRA_FERRO_CARVAO_SMELTABLES, RecipeCategory.MISC, ModItems.BARRA_FERRO_CARVAO, 0.25F, 200, "barra_ferro_carvao");
 
-        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.METADE_CARVAO, Items.COAL);
+        offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.METADE_CARVAO, Items.COAL, 2);
 
         offerBlasting(exporter, TURMALINA_SCHORL_SMELTABLES, RecipeCategory.MISC, ModItems.TURMALINA_SCHORL, 0.25F, 100, "turmalina_schorl");
         offerBlasting(exporter, TURMALINA_INDICOLITA_SMELTABLES, RecipeCategory.MISC, ModItems.TURMALINA_INDICOLITA, 0.25F, 100, "turmalina_indicolita");
