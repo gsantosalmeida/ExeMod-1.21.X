@@ -47,5 +47,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.COUVE_FLOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.METADE_CARVAO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ESTANHO_BRUTO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ZINCO_BRUTO, Models.GENERATED);
     }
 }

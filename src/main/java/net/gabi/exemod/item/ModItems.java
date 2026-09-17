@@ -25,6 +25,8 @@ public class ModItems{
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
     public static final Item COUVE_FLOR = registerItem("couve_flor", new Item(new Item.Settings().food(ModFoodComponentes.COUVE_FLOR)));
     public static final Item ESTRELA_INCANDESCENTE = registerItem("estrela_incandescente", new Item(new Item.Settings()));
+    public static final Item ESTANHO_BRUTO = registerItem("estanho_bruto", new Item(new Item.Settings()));
+    public static final Item ZINCO_BRUTO = registerItem("zinco_bruto", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item){
@@ -47,6 +49,9 @@ public class ModItems{
             entries.add(BARRA_ACO);
             entries.add(CABO_ACO);
             entries.add(CHISEL);
+            entries.add(ESTRELA_INCANDESCENTE);
+            entries.add(ZINCO_BRUTO);
+            entries.add(ESTANHO_BRUTO);
         });
     }
 }
